@@ -1,10 +1,11 @@
 
 /* Navbar-Styles */
 .nav-container{
+    margin: 30px 150px 240px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    margin: 30px 150px 240px 150px;
+    
 }
 
 .navbar-img{
@@ -42,4 +43,31 @@ nav li a{
 
 .secondary-text-style{
   color: #E95A08
+}
+
+
+/* Banner-styles */
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 1140px;
+    min-height: 461px;
+    margin: 240px 140px 0px 160px;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.banner-subtitle{
+    font-size: 22px;
+}
+
+
+.hero-img{
+    width: 570px;
+    height: 355px;
 }
